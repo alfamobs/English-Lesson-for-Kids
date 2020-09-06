@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/menu">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="407dp"
+        android:layout_gravity="center"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/pelajaran1"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran1"
+                android:text="LESSON 1"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran2"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran2"
+                android:text="LESSON 2"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran3"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran3"
+                android:text="LESSON 3"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran4"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran4"
+                android:text="LESSON 4"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran5"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran5"
+                android:text="LESSON 5"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran6"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran6"
+                android:text="LESSON 6"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran7"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran7"
+                android:text="LESSON 7"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran8"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran8"
+                android:text="LESSON 8"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran9"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran9"
+                android:text="LESSON 9"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pelajaran10"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="pelajaran10"
+                android:text="LESSON 10"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/latihan"
+                android:layout_width="30mm"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="casual"
+                android:onClick="latihan"
+                android:text="QUESTION"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

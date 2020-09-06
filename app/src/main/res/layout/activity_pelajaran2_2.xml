@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Pelajaran2_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greeting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="COLOR"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Look at the picture and say it loudly!"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="(Lihat gambar disamping dan katakan dengan keras!)"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/red"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Merah"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Putih"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/yellow"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Kuning"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/navy"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Biru Navy"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/gray"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Abu-abu"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/orange"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Jingga"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/pink"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Merah Muda"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/purple"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ungu"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hitam"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/blue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Biru"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/brown"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Coklat"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/green"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hijau"
+                    android:textSize="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song"/>
+
+        <Button
+            android:id="@+id/sing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sing"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arifudesu.englishlessonforkids">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pelajaran2_3"></activity>
+        <activity
+            android:name=".Pelajaran2_2"
+            android:label="Lesson 2 : Color"
+            android:parentActivityName=".Pelajaran2_1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pelajaran2_1"/>
+        </activity>
+        <activity
+            android:name=".Pelajaran2_1"
+            android:label="Lesson 2 : Number"
+            android:parentActivityName=".Pelajaran2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pelajaran2Activity" />
+        </activity>
+        <activity
+            android:name=".Pelajaran1_2"
+            android:label="Lesson 1 : Greeting"
+            android:parentActivityName=".Pelajaran1_1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pelajaran1_1" />
+        </activity>
+        <activity
+            android:name=".Pelajaran1_1"
+            android:label="Lesson 1 : Greeting"
+            android:parentActivityName=".Pelajaran1Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Pelajaran1Activity" />
+        </activity>
+        <activity android:name=".Latihan" />
+        <activity
+            android:name=".Pelajaran10Activity"
+            android:label="Lesson 10" />
+        <activity
+            android:name=".Pelajaran9Activity"
+            android:label="Lesson 9" />
+        <activity
+            android:name=".Pelajaran8Activity"
+            android:label="Lesson 8" />
+        <activity
+            android:name=".Pelajaran7Activity"
+            android:label="Lesson 7" />
+        <activity
+            android:name=".Pelajaran6Activity"
+            android:label="Lesson 6" />
+        <activity
+            android:name=".Pelajaran5Activity"
+            android:label="Lesson 5" />
+        <activity
+            android:name=".Pelajaran4Activity"
+            android:label="Lesson 4" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About" />
+        <activity
+            android:name=".Pelajaran3Activity"
+            android:label="Lesson 3" />
+        <activity
+            android:name=".Pelajaran2Activity"
+            android:label="Lesson 2 : Alphabet"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Pelajaran1Activity"
+            android:label="Lesson 1 : Greeting"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
